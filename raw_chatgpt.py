@@ -10,7 +10,7 @@ with SB(uc=True, test=True) as sb:
     sb.uc_gui_handle_captcha()
     sb.sleep(1)
     sb.click_if_visible('button[aria-label="Close dialog"]')
-    query = "Compare Playwright to SeleniumBase in under 178 words"
+    query = "Best Analytics Firms in India"
     sb.press_keys("#prompt-textarea", query)
     sb.click('button[data-testid="send-button"]')
     print('*** Input for ChatGPT: ***\n"%s"' % query)
