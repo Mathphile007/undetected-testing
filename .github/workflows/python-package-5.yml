@@ -1,7 +1,5 @@
 name: CI build 5 - (Ubuntu)
 on:
-  schedule:
-    - cron: "38 */2 * * *"
   push:
     branches: [ master ]
   pull_request:
